@@ -21,35 +21,4 @@ Simular un entorno empresarial pequeño para desarrollar habilidades prácticas 
 
 El laboratorio está compuesto por diferentes máquinas virtuales que simulan una infraestructura empresarial.
 
-```text
-                    ┌─────────────────────────┐
-                    │     Windows Server      │
-                    │        2022             │
-                    │                         │
-                    │ Active Directory        │
-                    │ DNS                     │
-                    │ GPO                     │
-                    │ Security Auditing       │
-                    └────────────┬────────────┘
-                                 │
-                                 │
-                    ┌────────────▼────────────┐
-                    │      Windows 10         │
-                    │                         │
-                    │ Wazuh Agent             │
-                    │ Windows Event Logs      │
-                    │ Security Monitoring     │
-                    └────────────┬────────────┘
-                                 │
-                                 │
-                    ┌────────────▼────────────┐
-                    │      Ubuntu Server      │
-                    │                         │
-                    │ Wazuh Manager           │
-                    │ Wazuh Indexer           │
-                    │ Wazuh Dashboard         │
-                    └─────────────────────────┘
-
-                       Kali Linux
-                    Controlled Security
-                         Testing
+![Enterprise Cybersecurity Lab Architecture](architecture/lab-architecture.png)
